@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Montserrat", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    /*background: linear-gradient(#66cdaa, #DDDDDD);*/
+    background-color: #181820;
+    margin: 0;
+}
+h1::first-letter{
+	color: #F6263E;
+	font-size: 120%;
+}
+/*#e80830*/
+/*@media screen and (max-width:659px) {*/
+	a{
+		transition: all 0.3s ease 0s;
+	}
+	a:hover{
+		opacity: 0.6;
+	}
+	div.sub_contents i{
+		margin-right: 5vw;
+		color: #F6263E;
+	}
+	body{
+		height: 100vh;
+	}
+	header{
+		height: 40vh;
+		margin: 0px;
+		background-image: url(./img/p0527_m.jpg);
+		background-repeat: repeat-x;
+		padding: 1vh 2vw;
+		display: grid;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.icon_header{
+		height: 25vh;
+		width: 25vh;
+		border-radius: 50%;
+	}
+
+	figure.hover-parent{
+		position: relative;
+		overflow: hidden;
+	}
+	figcaption.hover-mask{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: rgba(0,0,0,0.5);
+		border-radius: 50%;
+		opacity: 0;
+		color: #FFF;
+		font-size: 30px;
+	}
+	figure.hover-parent:hover .hover-mask{
+		opacity: 1;
+		transition: all 0.6s ease;
+	}
+/* body */
+    div.contents {
+        display: grid;
+        justify-content: center;
+        width: 100%;
+    }
+    h1{
+    	text-align: center;
+    }
+    div.contents h1{
+    	margin-top: 3vw;
+    }
+    h1,h2,p{
+    	line-height: 130%;
+    	color: #FFF;
+    }
+
+    div.sub_contents{
+    	width: 80vw;
+    	display: grid;
+    	border-top: thin dashed #FFF;
+    	margin-bottom: 5vh;
+    	justify-content: center;
+    }
+    div.item{
+    	margin-top: 4vh;
+    	display: flex;
+    }
+
+    div.footer_box{
+    	display: flex;
+    	width: 80vw;
+    	border-top: thin dashed #FFF;
+    	margin: 0 auto;
+    	justify-content: center;
+    }
+    div.footer_icons{
+    	margin: 5vw auto;
+    }
+    div.footer_icons a i{
+    	margin-right: 2.5vw; 
+    	margin-left: 2.5vw;
+    	color: #F6263E;
+    }
+
+    footer{
+    	text-align: center;
+    }
+/*}*/
